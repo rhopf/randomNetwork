@@ -1,6 +1,6 @@
 #include "node.h"
 
-// constructor and destructor
+// constructor and destructor (empty)
 Node::Node()
 {
 }

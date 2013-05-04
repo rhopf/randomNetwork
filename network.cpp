@@ -239,12 +239,12 @@ bool Network::_solveLinearSystem()
     // converged?
     if (_solver.info() == Success)
     {
-        qDebug() << "yay converged :) ...after " << _solver.iterations() << " iterations.";
+        qDebug() << "Yay, converged. :) ...after " << _solver.iterations() << " iterations.";
         return true;
     }
     else
     {
-        qDebug() << "shit diverged :(";
+        qDebug() << "Shit, diverged. :(";
         return false;
     }
 }

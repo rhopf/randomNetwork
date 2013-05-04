@@ -117,7 +117,7 @@ double Element::getDeltaD()
     return (tempCur - tempRef);
 }
 
-// get methods - coefficients
+// get methods - coefficients alpha and its "derivative"
 double Element::getAlpha()
 {
     double lRef = getReferenceLength();
